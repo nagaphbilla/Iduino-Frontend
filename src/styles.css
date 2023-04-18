@@ -59,16 +59,16 @@
   }
   .custom-nav[data-expanded="true"] {
     display: flex;
-    width: 90%;
+    width: 100%;
     left: 50%;
-    top: 150%;
+    top: 100%;
     transform: translateX(-50%);
     position: absolute;
     flex-direction: column;
     z-index: 9999;
     padding: 0%;
     background-color: var(--clr-nav);
-    border-radius: 0.5rem;
+    /* border-radius: 0.5rem; */
     gap: 1rem;
     padding-block: 2rem;
   }
