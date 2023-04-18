@@ -61,15 +61,16 @@
     display: flex;
     width: 90%;
     left: 50%;
-    top: 8%;
+    top: 150%;
     transform: translateX(-50%);
     position: absolute;
     flex-direction: column;
     z-index: 9999;
     padding: 0%;
-    background-color: var(--clr-text);
+    background-color: var(--clr-nav);
     border-radius: 0.5rem;
     gap: 1rem;
+    padding-block: 2rem;
   }
 }
 
