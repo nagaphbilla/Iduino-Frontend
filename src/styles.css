@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+--clr-primary:#E85C78;
+--clr-nav:#FFFFFF;
+--clr-secondary:#1F398A;
+}
+.nav-clr{
+  background-color:var(--clr-nav);
+}
+.button-clr-primary{
+  background-color: var(--clr-primary);
+}
+.button-clr-secondary{
+  background-color: var(--clr-secondary);
+}
+.text-clr-primary{
+  color: var(--clr-primary);
+}
 .custom-img {
   background-image: url(assets/list.svg);
   background-repeat: no-repeat;
@@ -48,13 +65,8 @@
 }
 
 .background_img{
-  background-image: url(assets/Rectangle.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y:-250px;
-  background-position-x:center;
-  background-attachment: fixed;
-  height: 850px;
+  background-color: #F5F5F5;
+  height: 80vh;
 }
 
 .background_img_play{

@@ -1,14 +1,15 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import rightImg from "./assets/Group6.svg";
 
 export default function LandingPage() {
   return (
     <div className="background_img">
       <Navbar />
-      <div className="w-11/12 mx-auto py-10">
-        <div className="flex flex-col gap-7">
+      <div className="mx-auto flex py-2 justify-between px-14">
+        <div className="flex flex-col gap-7 py-16">
           <h2 className="font-bold text-5xl lineHeight tracking-wide text-blue-900">
-            <span className="text-orange-400">Studying</span> Online is now
+            <span className="text-clr-primary">Studying</span> Online is now
             <br />
             much easier
           </h2>
@@ -18,15 +19,15 @@ export default function LandingPage() {
             you in more an interactive way
           </p>
           <div className="flex items-center gap-5">
-            <button className="px-2 w-36 py-2 bg-orange-400 rounded-3xl text-white text-center">
+            <button className="px-2 w-36 py-2 button-clr-primary rounded-3xl text-white text-center">
               Join for free
             </button>
             <button className="w-10 h-10 bg-white rounded-full background_img_play"></button>
             <span>watch how it works</span>
           </div>
         </div>
-        <div>
-          
+        <div className="background_img_right">
+          <img src={rightImg} alt="img."/>
         </div>
       </div>
     </div>
