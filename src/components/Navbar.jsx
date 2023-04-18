@@ -11,7 +11,7 @@ export default function Navbar() {
     }
   }
   return (
-    <nav className="px-14 nav-clr mx-auto py-4 flex items-center  md:flex justify-between md:py-7 shadow-lg">
+    <nav className="px-14 nav-clr mx-auto py-4 flex items-center  md:flex justify-between md:py-7 drop-shadow-md">
       <div>logo</div>
       <div className="block md:hidden">
         <button className="custom-img" onClick={handleClick}></button>
@@ -20,11 +20,11 @@ export default function Navbar() {
         <li className="px-2 cursor-pointer text-gray-600">Home</li>
         <li className="px-2 cursor-pointer text-gray-600">Careers</li>
         <li className="px-2 cursor-pointer text-gray-600">About Us</li>
-        <li className="px-2 w-20 py-2 button-clr-secondary text-white rounded-3xl  text-center">
+        <li className="px-2 w-32 py-2 bg-inherit text-clr-primary border-clr-primary rounded-lg  text-center">
           <button>Login</button>
         </li>
-        <li className="px-2 w-24 py-2 button-clr-primary rounded-3xl text-white text-center">
-          <button>Sign Up</button>
+        <li className="px-2 w-32 py-2 button-clr-primary rounded-lg text-white text-center font-medium">
+          <button>Register</button>
         </li>
       </ul>
     </nav>
