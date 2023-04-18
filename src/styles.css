@@ -72,6 +72,10 @@
     gap: 1rem;
     padding-block: 2rem;
   }
+  .flex-direction{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .background_img {
