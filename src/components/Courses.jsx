@@ -4,10 +4,10 @@ import image from "../assets/Group1964.svg";
 export default function Slide3() {
   return (
     <div className="flex background-slide3 w-full h-full items-center px-16 py-16 gap-10">
-      <div className="w-2/5">
+      <div className="hidden md:w-2/5 md:block">
         <img src={image} alt="img.." className="h-11/12 w-11/12" />
       </div>
-      <div className="flex flex-col px-14 w-3/5 gap-7">
+      <div className="flex flex-col md:px-14 md:w-3/5 gap-7 px-4">
         <span className="text-clr-slide3">SELECTED COURSE</span>
         <span className="text-4xl font-semibold text-white">
           People Taking Courses
