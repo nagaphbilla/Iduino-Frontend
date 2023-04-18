@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Varela&display=swap');
+
 :root {
   --clr-primary: #545be8;
   --clr-nav: #ffffff;
@@ -45,6 +48,10 @@
   align-items: center;
   position: unset;
   gap: 3rem;
+}
+
+nav {
+  z-index: 9999;
 }
 
 @media (max-width: 768px) {
@@ -125,4 +132,10 @@
 
 .text-clr-slide3{
   color: var(--clr-text-slide3);
+}
+
+.logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lora', serif;
+  font-family: 'Varela', sans-serif;
 }

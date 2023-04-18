@@ -6,15 +6,15 @@ export default function Footer() {
   return (
     <div style={{ backgroundColor: "#393E46", color: "white", paddingTop : "40px"}}>
       <div className="flex flex-wrap flex-row">
-        <div className="flex flex-col w-1/2 p-6 justify-between">
-          <div></div>
+        <div className="flex gap-5 flex-col p-6 justify-between" style={{flex : "1 0 45%"}}>
+          <p className="text-2xl ">Iduino</p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis,
             justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor
-            dolor augue et lectus.{" "}
+            dolor augue et lectus.
           </p>
           <ul className="flex flex-row">
-            <li className="px-2 cursor-pointer">
+            <li className="pr-2 cursor-pointer">
               <div
                 className="p-1 rounded-md"
                 style={{ border: "1.5px solid white" }}
@@ -40,7 +40,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="flex flex-wrap flex-row justify-between w-1/2 p-4">
+        <div className="flex flex-wrap flex-row justify-between p-4" style={{flex : "1 0 45%"}}>
         <div className="m-3" style={{flex : "1 0 20%"}}>
         <h3 className="font-semibold text-lg mb-2">Home</h3>
           <ul>
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
         </div>
       </div>
-      <p className="text-2xl font-extralight text-center">&#169;All rights reserved.</p>
+      <p className="text-2xl py-4 font-extralight text-center">&#169;All rights reserved.</p>
     </div>
   );
 }

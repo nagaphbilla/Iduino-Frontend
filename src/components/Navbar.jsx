@@ -12,7 +12,7 @@ export default function Navbar() {
   }
   return (
     <nav className="md:px-14 px-4 nav-clr mx-auto py-4 flex items-center md:flex justify-between md:py-3 drop-shadow-md sticky top-0">
-      <div>logo</div>
+      <div className="font-bold text-3xl logo">Iduino</div>
       <div className="block md:hidden">
         <button className="custom-img" onClick={handleClick}></button>
       </div>

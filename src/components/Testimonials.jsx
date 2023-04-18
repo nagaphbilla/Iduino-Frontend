@@ -8,7 +8,7 @@ export default function Testimonials() {
             <div className="flex flex-wrap flex-row w-full justify-between p-10">
                 <div className="shadow-lg m-7 w-full" style={{flex: "1 0 40%"}}>
                     <div className="flex flex-row w-full justify-between">
-                        <div className="flex flex-row pt-10 pl-10">
+                        <div className="flex flex-row pt-10 pl-10 z-50">
                             <img src={userImage} className="h-10 w-10"/>
                             <div className="pl-6">
                                 <h3 className="text-xl font-bold">Name</h3>
@@ -28,7 +28,7 @@ export default function Testimonials() {
                 </div>
                 <div className="shadow-lg m-7 w-full" style={{flex: "1 0 40%"}}>
                     <div className="flex flex-row w-full justify-between">
-                        <div className="flex flex-row pt-10 pl-10">
+                        <div className="flex flex-row pt-10 pl-10 z-50">
                             <img src={userImage} className="h-10 w-10"/>
                             <div className="pl-6">
                                 <h3 className="text-xl font-bold">Name</h3>
