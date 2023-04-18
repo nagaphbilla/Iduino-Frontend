@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Slide2() {
   return (
-    <div className="flex py-10">
+    <div className="flex py-20">
       <div className="flex flex-col px-14 w-1/3 gap-5">
         <span className="text-clr-primary">WHAT WE GIVE</span>
         <span className="text-3xl font-semibold">What Do You Get From Us</span>

@@ -7,6 +7,8 @@
   --clr-nav: #ffffff;
   --clr-secondary: #1f398a;
   --clr-text: #969696;
+  --clr-background-slide3:linear-gradient(180deg, #545BE8 0%, #272DB0 100%);
+  --clr-text-slide3:#F0C932;
 }
 .nav-clr {
   background-color: var(--clr-nav);
@@ -110,4 +112,12 @@
   background-position-x: center;
   background-position-y: center;
   background-size: 90%;
+}
+
+.background-slide3{
+  background: var(--clr-background-slide3);
+}
+
+.text-clr-slide3{
+  color: var(--clr-text-slide3);
 }
