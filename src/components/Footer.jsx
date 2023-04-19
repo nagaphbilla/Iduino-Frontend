@@ -4,7 +4,7 @@ import youtube from "../assets/youtube.svg";
 
 export default function Footer() {
   return (
-    <div style={{ backgroundColor: "#393E46", color: "white", paddingTop : "40px"}}>
+    <div style={{ backgroundColor: "#393E46", color: "white", paddingTop : "40px"}} className="md:px-4 px-2">
       <div className="flex flex-wrap flex-row">
         <div className="flex gap-5 flex-col p-6 justify-between" style={{flex : "1 0 45%"}}>
           <p className="text-2xl ">Iduino</p>
