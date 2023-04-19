@@ -13,9 +13,7 @@ export default function Slide3() {
           People Taking Courses
         </span>
         <p className="text-white font-extralight">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic,
-          facilis, dolor eaque libero ex nostrum magnam molestiae quis sed
-          provident voluptatibus distinctio laudantium ea dolorum ratione nisi.
+        Education is a fundamental right, and we believe that cost should not be a barrier to learning. That's why we offer free courses to students who cannot afford them. Our courses are designed by experts and cover diverse subjects, from basic skills to advanced topics. We're committed to ensuring everyone has access to quality education, regardless of their financial situation.
         </p>
         <div className="flex justify-between">
           <div className="flex flex-col items-center">

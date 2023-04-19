@@ -8,9 +8,7 @@ export default function Slide2() {
         <span className="text-clr-primary">WHAT WE GIVE</span>
         <span className="text-3xl font-semibold">What Do You Get From Us</span>
         <p className="text-clr">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores hic,
-          facilis, dolor eaque libero ex nostrum magnam molestiae quis sed
-          provident voluptatibus distinctio laudantium ea dolorum ratione nisi.
+        This platform offers well-designed robotics courses that cater to learners of all levels. From basic concepts to advanced programming, our courses provide hands-on experience to master robotics.
         </p>
       </div>
       <div className="flex-direction py-10 md:flex gap-10 px-5 md:w-2/3">
@@ -19,9 +17,7 @@ export default function Slide2() {
           <h4 className="text-white font-bold">Professional Teacher</h4>
           <p className="text-white font-thin text-sm">
             {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Perferendis laborum obcaecati doloribus minus eaque minima magnam
-            iusto, illum omnis sapiente accusamus?
+            We take pride in our team of teachers who are subject matter experts and have extensive teaching experience. Our teachers are dedicated to delivering high-quality education and ensuring student success.
           </p>
         </div>
         <div className="flex flex-col gap-2 button-clr-primary px-4 py-7 rounded-xl justify-center min-h-fit">
@@ -29,9 +25,7 @@ export default function Slide2() {
           <h4 className="text-white font-bold">Course Certificate </h4>
           <p className="text-white font-thin text-sm">
             {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Perferendis laborum obcaecati doloribus minus eaque minima magnam
-            iusto, illum omnis sapiente accusamus?
+            Upon completing a course on our online education website, students will receive a certificate of completion to showcase their new skills and knowledge. Our certificates are recognized by industry professionals.
           </p>
         </div>
         <div className="flex flex-col gap-2 button-clr-primary px-4 py-7 rounded-xl justify-center min-h-fit ">
@@ -39,9 +33,7 @@ export default function Slide2() {
           <h4 className="text-white font-bold">Interesting Learning</h4>
           <p className="text-white font-thin text-sm">
             {" "}
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Perferendis laborum obcaecati doloribus minus eaque minima magnam
-            iusto, illum omnis sapiente accusamus?
+            Our courses are designed to engage learners and make the learning experience enjoyable. We use interactive tools and multimedia to create an immersive and stimulating learning environment.
           </p>
         </div>
       </div>

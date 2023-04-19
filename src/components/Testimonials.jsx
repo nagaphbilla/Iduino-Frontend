@@ -33,8 +33,7 @@ export default function Testimonials() {
             <img src={star} alt="star.." className="h-5 w-5 m-1" />
           </div>
           <p className="px-10 py-6 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            rutrum dapibus luctus.
+          I recently completed a course on this website and I must say it exceeded my expectations. The course was well-structured, the instructor was knowledgeable, and I gained valuable skills. Highly recommend!
           </p>
         </div>
         <div className="shadow-lg w-full" style={{ flex: "1 0 40%" }}>
@@ -64,8 +63,7 @@ export default function Testimonials() {
             <img src={star} alt="star.." className="h-5 w-5 m-1" />
           </div>
           <p className="px-10 py-6 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            rutrum dapibus luctus.
+          I'm currently taking a course on this website and I'm impressed with the quality of the content. The learning materials are engaging and easy to follow, and the instructor is responsive and helpful.
           </p>
         </div>
       </div>
