@@ -8,11 +8,9 @@ export default function Footer() {
       <div className="flex flex-wrap flex-row">
         <div className="flex gap-5 flex-col p-6 justify-between" style={{flex : "1 0 45%"}}>
           <p className="text-2xl ">Iduino</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mollis,
-            justo nec porttitor auctor, erat sapien faucibus lectus, vel tempor
-            dolor augue et lectus.
-          </p>
+          Iduino is an intresting platform that will teach
+          <br />
+          you in more an interactive way
           <ul className="flex flex-row">
             <li className="pr-2 cursor-pointer">
               <div
