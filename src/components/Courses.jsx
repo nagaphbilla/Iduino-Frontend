@@ -3,7 +3,7 @@ import image from "../assets/Group1964.svg";
 
 export default function Slide3() {
   return (
-    <div className="flex background-slide3 w-full h-full items-center px-16 py-16 gap-10">
+    <div className="flex background-slide3 w-full h-full items-center md:px-16 py-16 gap-10 px-4">
       <div className="hidden md:w-2/5 md:block">
         <img src={image} alt="img.." className="h-11/12 w-11/12" />
       </div>

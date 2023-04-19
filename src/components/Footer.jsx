@@ -19,7 +19,7 @@ export default function Footer() {
                 className="p-1 rounded-md"
                 style={{ border: "1.5px solid white" }}
               >
-                <img src={facebook} className="h-4 w-4" />
+                <img src={facebook} alt="facebook.." className="h-4 w-4" />
               </div>
             </li>
             <li className="px-2 cursor-pointer">
@@ -27,7 +27,7 @@ export default function Footer() {
                 className="p-1 rounded-md"
                 style={{ border: "1.5px solid white" }}
               >
-                <img src={instagram} className="h-4 w-4" />
+                <img src={instagram} alt="instagram" className="h-4 w-4" />
               </div>
             </li>
             <li className="px-2 cursor-pointer">
@@ -35,7 +35,7 @@ export default function Footer() {
                 className="p-1 rounded-md"
                 style={{ border: "1.5px solid white" }}
               >
-                <img src={youtube} className="h-4 w-4" />
+                <img src={youtube} alt="youtube.." className="h-4 w-4" />
               </div>
             </li>
           </ul>
@@ -79,7 +79,7 @@ export default function Footer() {
         </div>
         </div>
       </div>
-      <p className="text-2xl py-4 font-extralight text-center">&#169;All rights reserved.</p>
+      <p className="text-md py-4 font-extralight text-center">&#169;All rights reserved.</p>
     </div>
   );
 }

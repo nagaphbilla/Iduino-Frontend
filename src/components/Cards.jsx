@@ -4,7 +4,7 @@ import React from "react";
 export default function Slide2() {
   return (
     <div className="flex-direction py-10 md:flex md:py-20">
-      <div className="flex flex-col px-14 md:w-1/3 gap-5">
+      <div className="flex flex-col md:px-14 md:w-1/3 gap-5 px-7">
         <span className="text-clr-primary">WHAT WE GIVE</span>
         <span className="text-3xl font-semibold">What Do You Get From Us</span>
         <p className="text-clr">
@@ -36,7 +36,7 @@ export default function Slide2() {
         </div>
         <div className="flex flex-col gap-2 button-clr-primary px-4 py-7 rounded-xl justify-center min-h-fit ">
           <span className="w-9 h-9 rounded-full bg-white background_img_card3" />
-          <h4 className="text-white font-bold">Intresting Learning</h4>
+          <h4 className="text-white font-bold">Interesting Learning</h4>
           <p className="text-white font-thin text-sm">
             {" "}
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
