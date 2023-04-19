@@ -5,11 +5,13 @@ export default function Slide1() {
   return (
     <div className="px-5  mx-auto flex justify-center md:py-10 md:justify-between md:px-14 items-center background_img">
       <div className="flex flex-col gap-6 py-16 justify-center items-center md:items-start">
-        <p className="hidden md:block text-md text-clr-primary">Let's <strong>Begins</strong></p>
-        <h2 className="font-bold md:text-5xl lineHeight tracking-wide text-hero-clr text-4xl">
-          Studing<span className="text-clr-primary"> Online </span>is now
+        <p className="hidden md:block text-lg text-clr-primary">
+          Let's <strong>Begins</strong>
+        </p>
+        <h2 className="font-bold md:text-5xl tracking-wide text-hero-clr text-4xl" style={{lineHeight : "3.5rem"}}>
+          Master<span className="text-clr-primary"> Robotics </span>
           <br />
-           much easier
+          Learn Online Today!
         </h2>
         <p className="text-gray-600 text-sm tracking-wide">
           Iduino is an intresting platform that will teach
