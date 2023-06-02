@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles.css'
+import "../styles.css";
 import Accordition from "../components/Accordition";
 export default function Video() {
   return (
@@ -12,7 +12,9 @@ export default function Video() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
       ></iframe>
-      <Accordition/>
+      <div className="w-2/3 mx-auto">
+        <Accordition />
+      </div>
     </div>
   );
 }
