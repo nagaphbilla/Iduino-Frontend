@@ -139,3 +139,7 @@ nav {
   font-family: 'Lora', serif;
   font-family: 'Varela', sans-serif;
 }
+
+.min-height-50{
+  min-height: 67vh;
+}
