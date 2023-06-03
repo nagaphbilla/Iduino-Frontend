@@ -1,0 +1,19 @@
+[{
+    "course1":{
+        "title":"IoT Revolution Kit - ELGYEM",
+        "info":"Here are the biggest enterprise technology acquisitions of 2021 sofar, in reverse chronological order.",
+        "couseStructure":{
+            "title":"IoT Revolution Kit - ELGYEM",
+        "info":"Here are the biggest enterprise technology acquisitions of 2021 sofar, in reverse chronological order.",
+        "coursecontent":{
+            "chapters":["chapter1","chapter2","chapter3"],
+            "chapter1":["IoT Revolution Kit - ELGYEM by REES52 Complete Introduction Tutorial (KT560)","Turn On/Off led via web Server using NodeMCU ESP8266-12E Board - IoT Based Project- ELGYEM","Make a Led Chaser Circuit using Leds interfacing with NodeMCU ESP8266-12e Wi-Fi board - ELGYEM"],
+            "chapter2":["topic1","topic2","topic3"],
+            "chapter3":["topic1","topic2","topic3"],
+            "chapter1Src":["https://www.youtube.com/embed/Nm2Fsi7lLsg","https://www.youtube.com/embed/7whA0Rl0JmM","https://www.youtube.com/embed/CwcJvdw_mJY"]
+        },
+        "aboutcourse":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit rem facilis reiciendis praesentium tempora optio voluptates, inventore sunt ipsa maiores assumenda quam culpa accusantium eveniet eaque repudiandae velit exercitationem eius, consequuntur deleniti magnam provident fuga cupiditate? Sapiente beatae magnam atque quia dolore perferendis esse quibusdam consequuntur, voluptatum ipsa qui. Architecto, sunt quibusdam?"
+        }
+        
+    }
+}]
