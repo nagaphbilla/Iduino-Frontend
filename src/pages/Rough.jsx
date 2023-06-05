@@ -1,60 +1,63 @@
-import { Fragment, useState } from "react";
-import {
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-} from "@material-tailwind/react";
-import DataJson from "../Data.json";
+import React, {useState } from "react";
+import "../signInPage.css";
 
-function Icon({ id, open }) {
+export default function Rough() {
+  const [containerClass, setContainerClass] = useState("");
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className={`${
-        id === open ? "rotate-180" : ""
-      } h-5 w-5 transition-transform`}
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-    </svg>
-  );
-}
-
-export default function Example() {
-  const [data, setData] = useState(
-    DataJson[0].course1.couseStructure.coursecontent.chapters
-  );
-  const [open, setOpen] = useState(0);
-
-  const handleOpen = (value) => {
-    setOpen(open === value ? 0 : value);
-  };
-
-  return (
-    <Fragment>
-      {data.map((item, index) => (
-        <Accordion
-          open={open === index + 1}
-          icon={<Icon id={index + 1} open={open} />}
-        >
-          <AccordionHeader
-            onClick={() => handleOpen(index + 1)}
-            className="`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`"
-          >
-            {item.title}
-          </AccordionHeader>
-          <AccordionBody className="`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`">
-            {item.topics.map((topic, index) => (
-              <div className="flex items-center gap-3 mb-2 text-gray-500 dark:text-gray-400 cursor-pointer">
-                {topic.title}
-              </div>
-            ))}
-          </AccordionBody>
-        </Accordion>
-      ))}
-    </Fragment>
+    <div>
+      <div className={`container ${containerClass}`} id="container">
+        <div className="form-container sign-up-container">
+          <form action="#">
+            <h1>Create Account</h1>
+            <span>use your email for registration</span>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Sign Up</button>
+          </form>
+        </div>
+        <div className="form-container sign-in-container">
+          <form action="#">
+            <h1>Sign in</h1>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+          </form>
+        </div>
+        <div className="overlay-container">
+          <div className="overlay">
+            <div className="overlay-panel overlay-left">
+              <h1>Welcome Back!</h1>
+              <p>
+                To keep connected with us please login with your personal info
+              </p>
+              <button
+                className="ghost"
+                id="signIn"
+                onClick={() => {
+                  setContainerClass("");
+                }}
+              >
+                Sign In
+              </button>
+            </div>
+            <div className="overlay-panel overlay-right">
+              <h1>Hello, Friend!</h1>
+              <p>Enter your personal details and start a journey with us</p>
+              <button
+                className="ghost"
+                id="signUp"
+                onClick={() => {
+                  setContainerClass("right-panel-active");
+                }}
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
