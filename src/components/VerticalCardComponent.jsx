@@ -1,9 +1,10 @@
 import React from "react";
 import img2 from "../assets/images_courses/marilia-castelli-wCVNhNnI_2s-unsplash.jpg";
+import { Link } from "react-router-dom";
 
 export default function VerticalCardComponent({obj}) {
   return (
-    <>
+    // <div>
       <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 place-self-end fixed top-32">
         <img class="rounded-t-lg" src={img2} alt="" />
         <div class="p-5">
@@ -15,14 +16,16 @@ export default function VerticalCardComponent({obj}) {
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {obj.course1.info}
           </p>
+          <Link to='/courses/courseStructure/videos'>
           <a
             href="#"
             class=" flex justify-center w-full px-3 py-2 text-sm font-medium text-white button-clr-primary rounded-lg hover:bg-blue-800  dark:bg-blue-600 dark:hover:bg-blue-700"
           >
             Enroll for Free
           </a>
+          </Link>
         </div>
       </div>
-    </>
+    // </div>
   );
 }
