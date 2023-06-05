@@ -15,38 +15,35 @@ export default function CourseStructure() {
   const card = data.map((obj) => {
     return (
       <>
-      
-      <div className="button-clr-primary w-full h-60 grid place-items-center">
+        <div className="button-clr-primary w-full h-60 grid place-items-center">
+          <div className="grid grid-cols-3 w-11/12 mx-auto">
+            {/* left part  start*/}
+            <div className="col-span-2 place-self-start">
+              <h1 className="text-4xl font-semibold py-3 text-white">
+                {obj.course1.couseStructure.title}
+              </h1>
+              <p className="py-3 text-white">
+                {obj.course1.couseStructure.info}
+              </p>
+            </div>
+            {/* left part end */}
+            {/* right part start */}
+            <VerticalCardComponent key={obj.course1.id} obj={obj} />
+            {/* right part end */}
+          </div>
+        </div>
         <div className="grid grid-cols-3 w-11/12 mx-auto">
-          {/* left part  start*/}
-          <div className="col-span-2 place-self-start">
-            <h1 className="text-4xl font-semibold py-3 text-white">
-             {obj.course1.couseStructure.title}
-            </h1>
-            <p className="py-3 text-white">
-              {obj.course1.couseStructure.info}
-            </p>
-          </div>
-          {/* left part end */}
-          {/* right part start */}
-          <VerticalCardComponent key={obj.course1.id} obj={obj} />
-          {/* right part end */}
-        </div>
-      </div>
-      <div className="grid grid-cols-3 w-11/12 mx-auto">
-        <div className="col-span-2 my-5">
-          <h2 className="text-2xl font-semibold">Course content</h2>
-          {/* Accordition  start*/}
-          <CourseStructureAccordition obj={obj}/>
-          {/* Accordition end */}
-          <div>
-            <h3 className="text-2xl font-semibold py-3">About this course</h3>
-            <p>
-              {obj.course1.couseStructure.aboutcourse}
-            </p>
+          <div className="col-span-2 my-5">
+            <h2 className="text-2xl font-semibold my-5">Course content</h2>
+            {/* Accordition  start*/}
+            <CourseStructureAccordition obj={obj} />
+            {/* Accordition end */}
+            <div>
+              <h3 className="text-2xl font-semibold py-3">About this course</h3>
+              <p>{obj.course1.couseStructure.aboutcourse}</p>
+            </div>
           </div>
         </div>
-      </div>
       </>
     );
   });

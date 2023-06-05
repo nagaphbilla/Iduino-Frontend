@@ -143,3 +143,20 @@ nav {
 .min-height-50{
   min-height: 67vh;
 }
+
+
+.accordion {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.accordion-head {
+  background-color: #f4f4f4;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-body {
+  padding: 10px;
+  display: none;
+}

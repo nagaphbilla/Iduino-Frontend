@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Data from "../Data.json";
 
-const CourseStructureAccordition = () => {
+const Rough = () => {
   const [data, setData] = useState(
     Data[0].course1.couseStructure.coursecontent.chapters
   );
@@ -24,7 +24,7 @@ const CourseStructureAccordition = () => {
           <h2 id={`accordion-heading-${index}`}>
             <button
               type="button"
-              className={`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`}
+              className={`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`}
               data-accordion-target={`#accordion-body-${index}`}
               aria-expanded={item.isOpen ? "true" : "false"}
               aria-controls={`accordion-body-${index}`}
@@ -92,4 +92,4 @@ const CourseStructureAccordition = () => {
   );
 };
 
-export default CourseStructureAccordition;
+export default Rough;

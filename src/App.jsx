@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Courses from "./pages/Courses";
 import Video from "./pages/Video";
 import "./styles.css";
+import Rough from "./pages/Rough";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/courses/courseStructure/videos" element={<Video/>}/>
         </Routes>
       </Router>
+      {/* <Rough/> */}
     </div>
   );
 }
