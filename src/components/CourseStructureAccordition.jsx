@@ -42,13 +42,14 @@ export default function CourseStructureAccordition() {
         >
           <AccordionHeader
             onClick={() => handleOpen(index + 1)}
-            className="`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`"
+            className="`flex items-center justify-between w-full p-5 font-medium text-left text-lg text-gray-700 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`"
           >
             {item.title}
           </AccordionHeader>
-          <AccordionBody className="`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`">
+          <AccordionBody className="`flex items-center justify-between w-full p-5 font-medium text-base text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800`">
             {item.topics.map((topic, index) => (
-              <div className="flex items-center gap-3 mb-2 text-gray-500 dark:text-gray-400 cursor-pointer">
+              <div className="flex items-center gap-3 mb-2 text-gray-800 dark:text-gray-400 cursor-pointer">
+              <input type="checkbox" name="topic-1" id="topic-1" checked={topic.isCompleted}/>
                 {topic.title}
               </div>
             ))}

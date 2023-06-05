@@ -12,45 +12,56 @@
                 "title":"chapter1",
                 "topics":[{
                     "title":"IoT Revolution Kit - ELGYEM by REES52 Complete Introduction Tutorial (KT560)",
-                    "videoSrc":"https://www.youtube.com/embed/Nm2Fsi7lLsg"
+                    "videoSrc":"https://www.youtube.com/embed/Nm2Fsi7lLsg",
+                    "isCompleted":true
                 },{
                     "title":"Turn On/Off led via web Server using NodeMCU ESP8266-12E Board - IoT Based Project- ELGYEM",
-                    "videoSrc":"https://www.youtube.com/embed/7whA0Rl0JmM"
+                    "videoSrc":"https://www.youtube.com/embed/7whA0Rl0JmM",
+                    "isCompleted":true
                 },{
                     "title":"Make a Led Chaser Circuit using Leds interfacing with NodeMCU ESP8266-12e Wi-Fi board - ELGYEM",
-                    "videoSrc":"https://www.youtube.com/embed/CwcJvdw_mJY"
+                    "videoSrc":"https://www.youtube.com/embed/CwcJvdw_mJY",
+                    "isCompleted":false
                 },{
                     "title":"Make A IOT LDR Alarm Circuit Using LDR Module And NodeMCU ESP8266-12E Wi-Fi Module - ELGYEM",
-                    "videoSrc":"https://www.youtube.com/embed/WpYW5ncRfBs"
+                    "videoSrc":"https://www.youtube.com/embed/WpYW5ncRfBs",
+                    "isCompleted":false
                 }],
                 "isOpen": false
             },{
                 "title":"chapter2",
                 "topics":[{
                     "title":"Make An IoT Temperature Level Indicator Using Led & DHT11 Module With ESP8266-12e Board - ELGYEM",
-                    "videoSrc":"https://www.youtube.com/embed/niXv3DyPgmw"
+                    "videoSrc":"https://www.youtube.com/embed/niXv3DyPgmw",
+                    "isCompleted":false
                 },{
                     "title":"Make A Tilt Switch Alarm Using Tilt Switch And Buzzer With NodeMCU ESP8266-12e Wi-Fi Board",
-                    "videoSrc":"https://www.youtube.com/embed/lAjKYJTtKic"
+                    "videoSrc":"https://www.youtube.com/embed/lAjKYJTtKic",
+                    "isCompleted":false
                 },{
                     "title":"An IoT soil moisture monitoring system using soil moisture sensor & NodeMCU ESP-12e Board THINGSPEAK",
-                    "videoSrc":"https://www.youtube.com/embed/vPhl5dvBJKw"
+                    "videoSrc":"https://www.youtube.com/embed/vPhl5dvBJKw",
+                    "isCompleted":false
                 },{
                     "title":"IoT project on Remotely control Led using MQTTbox Server client with ESP8266-12e Wi-Fi Board",
-                    "videoSrc":"https://www.youtube.com/embed/hpnKtF798u4"
+                    "videoSrc":"https://www.youtube.com/embed/hpnKtF798u4",
+                    "isCompleted":false
                 }],
                 "isOpen": false
             },{
                 "title":"chapter3",
                 "topics":[{
                     "title":"Measure Temperature and Humidity using DHT11 module with Node MCU via Blynk Application - PART 31",
-                    "videoSrc":"https://www.youtube.com/embed/pjUvejn1eGQ"
+                    "videoSrc":"https://www.youtube.com/embed/pjUvejn1eGQ",
+                    "isCompleted":false
                 },{
                     "title":"Make A Gas Level Monitoring System Using MQ-2 Gas Sensor Module using THINGSPEAK IoT Software",
-                    "videoSrc":"https://www.youtube.com/embed/w-C9ldFkrtM"
+                    "videoSrc":"https://www.youtube.com/embed/w-C9ldFkrtM",
+                    "isCompleted":false
                 },{
                     "title":"Make An IoT Gas Level Control System Using MQ-2 Gas Module & Led With BLYNK NodeMCU ESP-12e Board",
-                    "videoSrc":"https://www.youtube.com/embed/EE5q18VwBZg"
+                    "videoSrc":"https://www.youtube.com/embed/EE5q18VwBZg",
+                    "isCompleted":false
                 }],
                 "isOpen": false
             }]
