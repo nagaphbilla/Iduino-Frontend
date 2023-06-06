@@ -18,7 +18,9 @@ export default function Navbar() {
         <button className="custom-img" onClick={handleClick}></button>
       </div>
       <ul className="custom-nav" data-expanded={open}>
+        <Link to='/'>
         <li className="px-2 cursor-pointer text-gray-600">Home</li>
+        </Link>
         <Link to="/courses">
           <li className="px-2 cursor-pointer text-gray-600">Courses</li>
         </Link>

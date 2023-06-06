@@ -1,5 +1,6 @@
 import React from "react";
 import rightImg from "../assets/Group6.svg";
+import { Link } from "react-router-dom";
 
 export default function Slide1() {
   return (
@@ -22,9 +23,11 @@ export default function Slide1() {
           <img src={rightImg} alt="img." className="h-11/12 w-11/12" />
         </div>
         <div className="flex items-center gap-5">
+          <Link to='/courses'>
           <button className="p-3 w-36 button-clr-primary rounded-lg text-white text-center font-semibold text-lg">
             Join for free
           </button>
+          </Link>
           <button className="w-10 h-10 bg-white rounded-full background_img_play"></button>
           <span className="font-bold text-lg">Play Video</span>
         </div>
