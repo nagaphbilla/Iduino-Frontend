@@ -25,16 +25,16 @@ export default function Navbar() {
           <li className="px-2 cursor-pointer text-gray-600">Courses</li>
         </Link>
         <li className="px-2 cursor-pointer text-gray-600">About Us</li>
-        <Link to='/signIn'>
+        {/* <Link to='/signIn'> */}
           <li className="px-2 w-32 py-2 bg-inherit text-clr-primary border-clr-primary rounded-lg  text-center font-semibold">
             <button>Log in</button>
           </li>
-        </Link>
-        <Link to='/signIn'>
+        {/* </Link> */}
+        {/* <Link to='/signIn'> */}
           <li className="px-2 w-32 py-2 button-clr-primary rounded-lg text-white text-center font-medium">
             <button>Register</button>
           </li>
-        </Link>
+        {/* </Link> */}
       </ul>
     </nav>
   );
